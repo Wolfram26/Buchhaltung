@@ -9,7 +9,7 @@
 
 ## Projektbeschreibung
 
-Die Anwendung erm�glicht es, Einnahmen in eine MySQL-Datenbank zu speichern und �ber eine grafische Oberfl�che (Swing GUI) anzuzeigen. Es wurde mit IntelliJ entwickelt und nutzt JDBC f�r die Datenbankverbindung.
+Die Anwendung ermoeglicht es, Einnahmen in eine MySQL-Datenbank zu speichern und ueber eine grafische Oberflaeche (Swing GUI) anzuzeigen. Es wurde mit IntelliJ entwickelt und nutzt JDBC fuer die Datenbankverbindung.
 
 ## Verwendete Technologien
 
@@ -21,7 +21,7 @@ Die Anwendung erm�glicht es, Einnahmen in eine MySQL-Datenbank zu speichern un
 ## Setup
 
 ### 1. XAMPP starten
-Der MySQL-Server wurde �ber XAMPP gestartet:
+Der MySQL-Server wurde ueber XAMPP gestartet:
 ![XAMPP Starten](images/starting_xampp.png)
 
 ### 2. Tabellenstruktur (SQL)
@@ -46,16 +46,16 @@ Die Verbindung wurde erfolgreich aufgebaut mit JDBC:
 ![Verbindung erfolgreich](images/connection_successful.png)
 
 ### 5. Java Connector einbinden
-- JAR-Datei im Projekt als Bibliothek hinzugef�gt
+- JAR-Datei im Projekt als Bibliothek hinzugefuegt
 
 ## GUI & Funktionen
 
-### Benutzeroberfl�che
-Die grafische Oberfl�che wurde mit Swing erstellt. Sie erlaubt das Eintragen von Einnahmen mit Betrag, Datum, Kategorie und Beschreibung.
-![Benutzeroberfl�che](images/ui.png)
+### Benutzeroberflaeche
+Die grafische Oberflaeche wurde mit Swing erstellt. Sie erlaubt das Eintragen von Einnahmen mit Betrag, Datum, Kategorie und Beschreibung.
+![Benutzeroberflaeche](images/ui.png)
 
 ### Datenspeicherung
-Eintr�ge werden per JDBC in die Datenbank geschrieben. Pflichtfelder sind Betrag und Datum.
+Eintraege werden per JDBC in die Datenbank geschrieben. Pflichtfelder sind Betrag und Datum.
 
 ### Datenanzeige
 Beim Klicken auf "Anzeigen" wird ein neues Fenster mit allen gespeicherten Daten ge�ffnet:
@@ -69,4 +69,4 @@ Beim Klicken auf "Anzeigen" wird ein neues Fenster mit allen gespeicherten Daten
 
 ## Fazit
 
-Die Anwendung demonstriert erfolgreich eine einfache Java-Datenbankverbindung mit Benutzeroberfl�che. Erweiterungen wie Ausgabenverwaltung, Diagramme oder CSV-Export sind einfach umsetzbar.
+Die Anwendung demonstriert erfolgreich eine einfache Java-Datenbankverbindung mit Benutzeroberflaeche.
