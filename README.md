@@ -9,7 +9,7 @@
 
 ## Projektbeschreibung
 
-Die Anwendung ermöglicht es, Einnahmen in eine MySQL-Datenbank zu speichern und über eine grafische Oberfläche (Swing GUI) anzuzeigen. Es wurde mit IntelliJ entwickelt und nutzt JDBC für die Datenbankverbindung.
+Die Anwendung ermï¿½glicht es, Einnahmen in eine MySQL-Datenbank zu speichern und ï¿½ber eine grafische Oberflï¿½che (Swing GUI) anzuzeigen. Es wurde mit IntelliJ entwickelt und nutzt JDBC fï¿½r die Datenbankverbindung.
 
 ## Verwendete Technologien
 
@@ -21,7 +21,7 @@ Die Anwendung ermöglicht es, Einnahmen in eine MySQL-Datenbank zu speichern und 
 ## Setup
 
 ### 1. XAMPP starten
-Der MySQL-Server wurde über XAMPP gestartet:
+Der MySQL-Server wurde ï¿½ber XAMPP gestartet:
 ![XAMPP Starten](images/starting_xampp.png)
 
 ### 2. Tabellenstruktur (SQL)
@@ -46,20 +46,19 @@ Die Verbindung wurde erfolgreich aufgebaut mit JDBC:
 ![Verbindung erfolgreich](images/connection_successful.png)
 
 ### 5. Java Connector einbinden
-- Speicherort: `C:\Users\z004tysp\Documents\Schule\Jahr_2\ITL_12_KPH\Buchhaltung`
-- JAR-Datei im Projekt als Bibliothek hinzugefügt
+- JAR-Datei im Projekt als Bibliothek hinzugefï¿½gt
 
 ## GUI & Funktionen
 
-### Benutzeroberfläche
-Die grafische Oberfläche wurde mit Swing erstellt. Sie erlaubt das Eintragen von Einnahmen mit Betrag, Datum, Kategorie und Beschreibung.
-![Benutzeroberfläche](images/ui.png)
+### Benutzeroberflï¿½che
+Die grafische Oberflï¿½che wurde mit Swing erstellt. Sie erlaubt das Eintragen von Einnahmen mit Betrag, Datum, Kategorie und Beschreibung.
+![Benutzeroberflï¿½che](images/ui.png)
 
 ### Datenspeicherung
-Einträge werden per JDBC in die Datenbank geschrieben. Pflichtfelder sind Betrag und Datum.
+Eintrï¿½ge werden per JDBC in die Datenbank geschrieben. Pflichtfelder sind Betrag und Datum.
 
 ### Datenanzeige
-Beim Klicken auf "Anzeigen" wird ein neues Fenster mit allen gespeicherten Daten geöffnet:
+Beim Klicken auf "Anzeigen" wird ein neues Fenster mit allen gespeicherten Daten geï¿½ffnet:
 ![Daten anzeigen](images/anzeigen.png)
 
 ## Projektstruktur
@@ -70,4 +69,4 @@ Beim Klicken auf "Anzeigen" wird ein neues Fenster mit allen gespeicherten Daten
 
 ## Fazit
 
-Die Anwendung demonstriert erfolgreich eine einfache Java-Datenbankverbindung mit Benutzeroberfläche. Erweiterungen wie Ausgabenverwaltung, Diagramme oder CSV-Export sind einfach umsetzbar.
+Die Anwendung demonstriert erfolgreich eine einfache Java-Datenbankverbindung mit Benutzeroberflï¿½che. Erweiterungen wie Ausgabenverwaltung, Diagramme oder CSV-Export sind einfach umsetzbar.
